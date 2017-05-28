@@ -1,5 +1,5 @@
 body{
-  background-color: red;
+  background-color: #02010a;
   font-family: "Dancing Script",cursive;
 }
 header{
@@ -74,7 +74,7 @@ section img{
   width: 50%;
 }
 .bloque1 img{
-  width: 200px;
+  width: 380px;
   height: 270px;
   display: inline-block;
   display: block;
