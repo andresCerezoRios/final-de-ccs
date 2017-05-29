@@ -47,6 +47,7 @@ section img{
   display: inline-block;
   display: block;
   padding: 10px;
+  filter: drop-shadow(2px 2px 2px black);
 }
 
 .contenedor {
@@ -85,11 +86,11 @@ section img{
   margin: auto;
   padding-top: 15px;
   transition: 2s;
-  box-shadow: 2px 2px black;
+  filter: drop-shadow(2px 2px 2px #20210a);
 }
 .bloque1 img:hover{
   transform: rotate(10deg);
-  box-shadow: 2px 2px #82c3a6;
+  filter: drop-shadow(2px 2px #82c3a6);
 }
 .bloque2 img{
   width: 370px;
@@ -99,9 +100,9 @@ section img{
   margin: auto;
   padding-top: 15px;
   transition: 1s;
-  box-shadow: 2px 2px black;
+  filter: drop-shadow(2px 2px 2px #20210a);
 }
 .bloque2 img:hover{
   transform: translateX(20px) translateY(-5px);
-  box-shadow: 2px 2px #82c3a6;
+  filter: drop-shadow(2px 2px #82c3a6);
 }
