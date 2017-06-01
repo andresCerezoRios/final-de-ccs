@@ -11,12 +11,6 @@ header{
   margin:0 auto;
   display: flex;
 }
-section{
-  width: 70%;
-  height: 350px;
-  background-color: #82c3a6;
-  margin: 0 auto;
-}
 footer{
   width: 70%;
   height: 180px;
@@ -25,13 +19,14 @@ footer{
   border-bottom-right-radius: 10px;
   margin:0 auto;
 }
+
 .contenedor1 h1{
   padding-left: 3%;
   padding-top: 1%;
   color: white;
   filter: drop-shadow(2px 2px 2px #02010a);
 }
-a[href^="finalcss3/index.html"],a[href^="html/Paisajes.html"],a[href^="html/Retratos.html"]{
+a[href^="html/Paisajes.html"],a[href^="html/Retratos.html"]{
   padding-right: 20px;
   color: white;
   text-decoration: none;
@@ -43,21 +38,12 @@ a[href^="finalcss3/index.html"],a[href^="html/Paisajes.html"],a[href^="html/Retr
   font-size: 1.2em;
 
 }
-section img{
-  margin:0 auto;
-  width: 950px;
-  height: 330px;
-  display: inline-block;
-  display: block;
-  padding: 10px;
-  filter: drop-shadow(2px 2px 2px black);
-}
-
 .contenedor {
   margin: 0;
+
   padding: 0;
   width: 70%;
-  height: 300px;
+  height: 450px;
 	display: flex;
 	flex-flow: row wrap;
   margin:0 auto;
@@ -75,30 +61,34 @@ section img{
 .bloque1  {
   font-family: "Dancing Script",cursive;
 	font-size: 2em;
-  width: 50%;
+  width: 33%;
 }
 .bloque2  {
   font-family: "Dancing Script",cursive;
 	font-size: 2em;
-  width: 50%;
+  width: 33%;
+}
+.bloque3 {
+  font-family: "Dancing Script",cursive;
+	font-size: 2em;
+  width: 33%;
 }
 .bloque1 img{
-  width: 370px;
-  height: 240px;
+  width: 300px;
+  height: 200px;
   display: inline-block;
   display: block;
   margin: auto;
-  padding-top: 15px;
-  transition: 2s;
+  padding-top: 0;
   filter: drop-shadow(2px 2px 2px #20210a);
 }
-.bloque1 img:hover{
-  transform: rotate(10deg);
-  filter: drop-shadow(2px 2px #82c3a6);
+#imagen1{
+  -webkit-filter:blur(10px);
+  filter: blur(10px);
 }
 .bloque2 img{
-  width: 370px;
-  height: 240px;
+  width: 300px;
+  height: 200px;
   display: inline-block;
   display: block;
   margin: auto;
@@ -110,7 +100,20 @@ section img{
   transform: translateX(20px) translateY(-5px);
   filter: drop-shadow(2px 2px #82c3a6);
 }
-
+.bloque3 img{
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+  display: block;
+  margin: auto;
+  padding-top: 15px;
+  transition: 1s;
+  filter: drop-shadow(2px 2px 2px #20210a);
+}
+.bloque3 img:hover{
+  transform: translateX(20px) translateY(-5px);
+  filter: drop-shadow(2px 2px #82c3a6);
+}
 .series{
   margin: 0;
   padding: 0;
