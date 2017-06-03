@@ -26,7 +26,7 @@ footer{
   color: white;
   filter: drop-shadow(2px 2px 2px #02010a);
 }
-a[href^="html/Paisajes.html"],a[href^="html/Retratos.html"]{
+nav a[href^="html/Paisajes.html"],a[href^="html/Retratos.html"],a[href]{
   padding-right: 20px;
   color: white;
   text-decoration: none;
@@ -40,10 +40,9 @@ a[href^="html/Paisajes.html"],a[href^="html/Retratos.html"]{
 }
 .contenedor {
   margin: 0;
-
   padding: 0;
   width: 70%;
-  height: 450px;
+  height: 500px;
 	display: flex;
 	flex-flow: row wrap;
   margin:0 auto;
@@ -79,13 +78,10 @@ a[href^="html/Paisajes.html"],a[href^="html/Retratos.html"]{
   display: inline-block;
   display: block;
   margin: auto;
-  padding-top: 0;
-  filter: drop-shadow(2px 2px 2px #20210a);
+  padding-top: 15px;
+  filter: drop-shadow(2px 2px 2px #02010a);
 }
-#imagen1{
-  -webkit-filter:blur(10px);
-  filter: blur(10px);
-}
+
 .bloque2 img{
   width: 300px;
   height: 200px;
@@ -94,12 +90,9 @@ a[href^="html/Paisajes.html"],a[href^="html/Retratos.html"]{
   margin: auto;
   padding-top: 15px;
   transition: 1s;
-  filter: drop-shadow(2px 2px 2px #20210a);
+  filter: drop-shadow(2px 2px 2px #02010a);
 }
-.bloque2 img:hover{
-  transform: translateX(20px) translateY(-5px);
-  filter: drop-shadow(2px 2px #82c3a6);
-}
+
 .bloque3 img{
   width: 300px;
   height: 200px;
@@ -108,12 +101,9 @@ a[href^="html/Paisajes.html"],a[href^="html/Retratos.html"]{
   margin: auto;
   padding-top: 15px;
   transition: 1s;
-  filter: drop-shadow(2px 2px 2px #20210a);
+  filter: drop-shadow(2px 2px 2px #02010a);
 }
-.bloque3 img:hover{
-  transform: translateX(20px) translateY(-5px);
-  filter: drop-shadow(2px 2px #82c3a6);
-}
+
 .series{
   margin: 0;
   padding: 0;
@@ -156,4 +146,21 @@ img[src$="svg"]{
 img[src$="png"]{
   border-radius: 3px;
   padding: 0;
+}
+.redes a[href="http://facebook.com"],a[href="http://twitter.com"],a[href="http://youtube.com"]{
+  color: black;
+  filter: none;
+}
+#imagen1{
+  -webkit-filter:blur(10px);
+  filter: blur(10px);
+}
+
+#imagen2, #imagen3, #imagen6 {
+  -webkit-filter:grayscale(100%);
+  filter: grayscale(100%);
+}
+#imagen4{
+  -webkit-filter:sepia(90%);
+  filter: sepia(90%);
 }

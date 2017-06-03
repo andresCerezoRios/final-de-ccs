@@ -31,7 +31,7 @@ footer{
   color: white;
   filter: drop-shadow(2px 2px 2px #02010a);
 }
-a[href^="finalcss3/index.html"],a[href^="html/Paisajes.html"],a[href^="html/Retratos.html"]{
+ a[href^="html/Paisajes.html"],a[href^="html/Retratos.html"],a[href]{
   padding-right: 20px;
   color: white;
   text-decoration: none;
@@ -90,7 +90,7 @@ section img{
   margin: auto;
   padding-top: 15px;
   transition: 2s;
-  filter: drop-shadow(2px 2px 2px #20210a);
+  filter: drop-shadow(2px 2px 2px #02010a);
 }
 .bloque1 img:hover{
   transform: rotate(10deg);
@@ -104,7 +104,7 @@ section img{
   margin: auto;
   padding-top: 15px;
   transition: 1s;
-  filter: drop-shadow(2px 2px 2px #20210a);
+  filter: drop-shadow(2px 2px 2px #02010a);
 }
 .bloque2 img:hover{
   transform: translateX(20px) translateY(-5px);
@@ -153,4 +153,8 @@ img[src$="svg"]{
 img[src$="png"]{
   border-radius: 3px;
   padding: 0;
+}
+.redes a[href="http://facebook.com"],a[href="http://twitter.com"],a[href="http://youtube.com"]{
+  color: black;
+  filter: none;
 }
