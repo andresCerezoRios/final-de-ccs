@@ -8,26 +8,38 @@
    <title>Comenzando con la Fotografia</title>
  </head>
  <body>
-   <header class="contenedor1">
-     <h1>Comenzando con la fotografia</h1>
-     <nav>
-       <a href>Inicio</a>
-       <a href="html/Paisajes.html">Paisajes</a>
-       <a href="html/Retratos.html">Retratos</a>
-     <nav>
+   <div id="wrapper">
+   <header>
+     <div class="contenedor1">
+       <div class="titulo">
+         <h1>Comenzando con la fotografia</h1>
+       </div>
+       <div class="enlaces">
+          <a href>Inicio</a>
+          <a href="html/Paisajes.html">Paisajes</a>
+          <a href="html/Retratos.html">Retratos</a>
+       </div>
+    </div>
    </header>
-     <section>
-       <img src="imagenes/tardellanos.jpg"/>
-     </section>
-     <div class="contenedor" role="main">
+    <section>
+     <div id="container">
+       <img src="imagenes/bueyes.jpg"/>
+     </div>
+    </section>
+    <div class="contenedor" role="main">
      <div class="bloque1">
-        <img src="imagenes/rio.jpg"/>
-        <figcaption>Paisajes</figcaption>
+      <figure>
+       <img src="imagenes/rio.jpg"/>
+       <figcaption>Paisajes</figcaption>
+      </figure>
      </div>
      <div class="bloque2">
-        <img src="imagenes/luci.jpg"/>
-        <figcaption>Retratos</figcaption>
+      <figure>
+       <img src="imagenes/luci.jpg"/>
+       <figcaption>Retratos</figcaption>
+      </figure>
      </div>
+    </div>
    </div>
    <footer>
      <div class="series" role="main">
@@ -55,7 +67,6 @@
        <div class="serie4">
         <h1>Derechos</h1>
         <p>Andres Cerezo</p> &#169 Copyright 2017
-
        </div>
     </div>
    </footer>

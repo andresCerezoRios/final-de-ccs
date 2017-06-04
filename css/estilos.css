@@ -4,60 +4,56 @@ body{
 }
 header{
   background-color: #5b7989;
-  width: 70%;
-  height: 100px;
+  width: 60%;
+  height: 40%;
   border-top-left-radius:  10px;
   border-top-right-radius: 10px;
   margin:0 auto;
   display: flex;
 }
 section{
-  width: 70%;
-  height: 350px;
+  width: 60%;
+  height: 40%;
   background-color: #82c3a6;
   margin: 0 auto;
 }
 footer{
-  width: 70%;
-  height: 180px;
+  width: 60%;
+  height: 40%;
   background-color:#c6d5c5;
   border-bottom-left-radius:10px;
   border-bottom-right-radius: 10px;
   margin:0 auto;
 }
-.contenedor1 h1{
-  padding-left: 3%;
-  padding-top: 1%;
-  color: white;
-  filter: drop-shadow(2px 2px 2px #02010a);
-}
- a[href^="html/Paisajes.html"],a[href^="html/Retratos.html"],a[href]{
-  padding-right: 20px;
-  color: white;
-  text-decoration: none;
-  filter: drop-shadow(2px 2px 2px #02010a);
-  }
-.contenedor1 nav{
-  padding-left: 45%;
-  padding-top: 3%;
-  font-size: 1.2em;
-
-}
-section img{
+#container img{
+  width: 62%;
   margin:0 auto;
-  width: 950px;
-  height: 330px;
   display: inline-block;
   display: block;
   padding: 10px;
   filter: drop-shadow(2px 2px 2px black);
 }
-
+.titulo{
+  padding-left: 0%;
+  padding-top: 3%;
+  color: white;
+  filter: drop-shadow(2px 2px 2px #02010a);
+}
+ a[href^="html/Paisajes.html"],a[href^="html/Retratos.html"],a[href]{
+  padding-right: 10%;
+  color: white;
+  text-decoration: none;
+  filter: drop-shadow(2px 2px 2px #02010a);
+  }
+.enlaces{
+  padding-right: 0%;
+  padding-top: 3%;
+  font-size: 1.2em;
+}
 .contenedor {
   margin: 0;
   padding: 0;
-  width: 70%;
-  height: 300px;
+  width: 60%;
 	display: flex;
 	flex-flow: row wrap;
   margin:0 auto;
@@ -83,12 +79,12 @@ section img{
   width: 50%;
 }
 .bloque1 img{
-  width: 370px;
-  height: 240px;
+  width: 100%;
+  height: 250px;
   display: inline-block;
   display: block;
   margin: auto;
-  padding-top: 15px;
+  padding-top: 0;
   transition: 2s;
   filter: drop-shadow(2px 2px 2px #02010a);
 }
@@ -97,12 +93,12 @@ section img{
   filter: drop-shadow(2px 2px #82c3a6);
 }
 .bloque2 img{
-  width: 370px;
-  height: 240px;
+  width: 100%;
+  height: 250px;
   display: inline-block;
   display: block;
   margin: auto;
-  padding-top: 15px;
+  padding-top: 0;
   transition: 1s;
   filter: drop-shadow(2px 2px 2px #02010a);
 }
@@ -115,7 +111,6 @@ section img{
   margin: 0;
   padding: 0;
   width: 90%;
-  height: 300px;
   display: flex;
   flex-flow: row wrap;
   margin:0 auto;
@@ -157,4 +152,39 @@ img[src$="png"]{
 .redes a[href="http://facebook.com"],a[href="http://twitter.com"],a[href="http://youtube.com"]{
   color: black;
   filter: none;
+}
+
+@media screen and (min-width:900px) {
+  #wrapper{
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width:900px) {
+  #wrapper{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #container{
+    width: 100%;
+  }
+  .bloque1{
+    width: 100%;
+  }
+  .bloque2{
+    width: 100%;
+  }
+  .serie1{
+    width: 100%;
+  }
+  .serie2{
+    width: 100%;
+  }
+  .serie3{
+    width: 100%;
+  }
+  .serie4{
+    width: 100%;
+  }
 }
