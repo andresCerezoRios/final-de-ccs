@@ -33,23 +33,35 @@ footer{
   padding: 10px;
   filter: drop-shadow(2px 2px 2px black);
 }
-.titulo{
-  padding-left: 0%;
-  padding-top: 3%;
-  color: white;
-  filter: drop-shadow(2px 2px 2px #02010a);
+.partes{
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  margin:0 auto;
 }
- a[href^="html/Paisajes.html"],a[href^="html/Retratos.html"],a[href]{
-  padding-right: 10%;
-  color: white;
-  text-decoration: none;
-  filter: drop-shadow(2px 2px 2px #02010a);
-  }
-.enlaces{
+.parte1{
+  margin-left: 2%;
+  padding-top: 0%;
   padding-right: 0%;
-  padding-top: 3%;
-  font-size: 1.2em;
+  color: white;
+  filter: drop-shadow(2px 2px 2px #02010a);
 }
+
+.parte2{
+  display:  inline-flex;
+  margin-left: 10%;
+  padding-left: 25%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  font-size: 1.3em;
+  filter: drop-shadow(2px 2px 2px #02010a);
+}
+a[href^="html/Paisajes.html"],a[href^="html/Retratos.html"],a[href]{
+ padding-right: 10px;
+ color: white;
+ text-decoration: none;
+ filter: drop-shadow(2px 2px 2px #02010a);
+ }
 .contenedor {
   margin: 0;
   padding: 0;
@@ -186,5 +198,13 @@ img[src$="png"]{
   }
   .serie4{
     width: 100%;
+  }
+  .parte1{
+    width: 100%;
+    text-align: center;
+  }
+  .parte2{
+    width: 100%;
+    text-align: center;
   }
 }

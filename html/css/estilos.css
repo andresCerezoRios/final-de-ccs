@@ -20,24 +20,37 @@ footer{
   margin:0 auto;
 }
 
-.contenedor1 h1{
-  padding-left: 3%;
-  padding-top: 1%;
+.partes{
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  margin:0 auto;
+}
+.parte1{
+  margin-left: 2%;
+  padding-top: 0%;
+  padding-right: 0%;
   color: white;
   filter: drop-shadow(2px 2px 2px #02010a);
 }
-nav a[href^="html/Paisajes.html"],a[href^="html/Retratos.html"],a[href]{
-  padding-right: 15px;
+
+.parte2{
+  display:  inline-flex;
+  margin-left: 10%;
+  padding-left: 25%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  font-size: 1.3em;
+  filter: drop-shadow(2px 2px 2px #02010a);
+}
+
+a[href^="html/Paisajes.html"],a[href^="html/Retratos.html"],a[href]{
+  padding-right: 10px;
   color: white;
   text-decoration: none;
   filter: drop-shadow(2px 2px 2px #02010a);
   }
-.contenedor1 nav{
-  padding-left: 35%;
-  padding-top: 3%;
-  font-size: 1.2em;
 
-}
 .contenedor {
   margin: 0;
   padding: 0;
@@ -159,4 +172,49 @@ img[src$="png"]{
 #imagen4{
   -webkit-filter:sepia(90%);
   filter: sepia(90%);
+}
+@media screen and (min-width:900px) {
+  #wrapper{
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width:900px) {
+  #wrapper{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #container{
+    width: 100%;
+  }
+  .bloque1{
+    width: 100%;
+  }
+  .bloque2{
+    width: 100%;
+  }
+  .bloque3{
+    width: 100%;
+  }
+  .serie1{
+    width: 100%;
+  }
+  .serie2{
+    width: 100%;
+  }
+  .serie3{
+    width: 100%;
+  }
+  .serie4{
+    width: 100%;
+  }
+  .parte1{
+    width: 100%;
+    text-align: center;
+  }
+  .parte2{
+    width: 100%;
+    text-align: center;
+  }
 }
